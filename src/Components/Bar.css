@@ -1,0 +1,36 @@
+
+
+
+.cat3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    word-spacing: 1px;
+    margin-bottom: 69px;
+   border: 1px ;
+    margin-left: 22px;
+    border-radius: 25px; 
+    border-color: none;
+    
+   
+
+   
+    transition: transform 900sm;
+}
+.cat3:hover{
+    transform: scale(1.16);
+   
+    background-color: white;
+    
+}
+
+.cat3 .hv1:hover{
+    color: rgb(78, 87, 186) !important;
+}
+ 
+
+.hv1{
+    color: white;
+}
+
+
+

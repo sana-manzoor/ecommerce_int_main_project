@@ -1,0 +1,81 @@
+/* General Styling */
+.s1 {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+  }
+  
+  .n2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .ft2, .ft1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .ft2 a, .ft1 a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Desktop Navbar Styling */
+  .n2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .n2 .ft2 {
+    color: #555;
+  }
+  
+  .n2 .ft2:hover {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* Mobile Navbar Styling */
+  .bg-warning {
+    background-color: #ffc107 !important;
+  }
+  
+  .ft1 {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .ft1 a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .n2 {
+      display: none;
+    }
+  
+    .ft1 {
+      display: block;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+  }
+  
+  /* Hover Effects */
+  .ft2 a:hover, .ft1 a:hover {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* Active Link Styling */
+  .ft2 a.active, .ft1 a.active {
+    color: #007bff;
+    font-weight: bold;
+  }
+  

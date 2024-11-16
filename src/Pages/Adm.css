@@ -1,0 +1,62 @@
+#he1{
+    font-family: "Ink Free", Times, serif;
+    font-size :60px;
+    
+}
+#he2{
+    font-weight: 200;
+    
+    font-size: 63px;
+
+}
+
+.sp2{
+    font-size: 22px;
+    font-family: NSimSun, Times, serif;
+    color: white;
+
+   
+}
+
+a{
+    text-decoration: none !important  ;
+    color: white !important;
+}
+
+.dd{
+    cursor: pointer;
+}
+
+.head{
+    font-family: "Segoe Print", Times, serif;
+    color: rgb(212, 35, 35);
+
+}
+
+.head2{
+    font-family: "Segoe Print", Times, serif;
+font-weight: 300;
+}
+
+
+.cat1{
+    
+    transition: transform 500sm;
+}
+.cat1:hover{
+    transform: scale(1.12);
+}
+
+
+#he3{
+    font-family: NSimSun, Times, serif;
+    font-weight: 300;
+    font-size: 35px;
+    
+
+}
+
+#he4{
+    color:#C92222;
+    font-weight: 600;
+}

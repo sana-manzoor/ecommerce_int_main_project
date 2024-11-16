@@ -1,0 +1,55 @@
+/* Style for the logo */
+.logo {
+    height: 70px;
+    width: auto;
+  }
+  
+  /* Mobile Search bar */
+  .search-bar .search-input {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .search-bar .search-input {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Navbar buttons */
+  .btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  
+  .navbar-nav .btn {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .btn:hover {
+    background-color: #4e5ed0;
+    color: #fff;
+  }
+  
+  /* For larger screens, hide the search input */
+  @media (min-width: 768px) {
+    .search-bar .search-input {
+      display: none;
+    }
+  }
+  
+  /* Navbar style */
+  .navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 10px;
+  }
+  
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+  
