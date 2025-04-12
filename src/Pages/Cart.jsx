@@ -90,6 +90,8 @@ function Cart() {
    
       }, [cartlist]);
 
+  
+
     // console.log(total)
 
     // console.log(total)

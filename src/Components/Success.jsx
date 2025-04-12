@@ -15,6 +15,7 @@ function Success() {
         console.log(result)
         if(result.status ==200){
             console.log(result.data)
+
         }
         else{
             console.log("error")
@@ -27,7 +28,6 @@ function Success() {
             const det = JSON.parse(sessionStorage.getItem("details"))
             // console.log(uu)
             setDetails(det)
-
             setData({...data,oid:details.id,amount:details.amount,status:details.status})
             // const name1 = JSON.parse(localStorage.getItem("name"))
             // const uid1= JSON.parse(localStorage.getItem("currentUser"))
@@ -72,6 +72,7 @@ function Success() {
                             <p><strong>Payment ID:</strong> {details.id}</p>
                             <p><strong>Amount paid:</strong>₹{details.amount}</p>
                             <p><strong>Status:</strong> {details.status}</p>
+                            
                        </div>
                       <div className='text-end'> <button className='text-dark' onClick={clearall}>Home</button> </div> 
                     </div>

@@ -132,6 +132,7 @@ function Jwellery() {
                                   <Button className="btn " onClick={()=>{addtocart(item)}}  variant="outline-dark"  ><i className="fa-solid fa-cart-plus fa-lg"></i></Button>
                                 </div>
                               </Card.Body>
+                              
                             </Card>
                             </div>
                         ))
